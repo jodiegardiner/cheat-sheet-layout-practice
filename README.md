@@ -1,5 +1,5 @@
 # cheat-sheet-layout-practice
-Simple cheat sheets for all we have covered in Stream 1 so far
+Simple cheat sheet links for all we have covered in Stream 1 by the end of the first week.
 
 ## Rationale
 I wanted to practice the various techniques we learned in week 1 whilst also putting together something that I will personally find useful in the days and weeks to come.  Perhaps someone else will find it useful too.
