@@ -1,4 +1,4 @@
-# cheat-sheet-layout-practice
+# Layout practice - Cheat Sheets
 Simple cheat sheet links for all we have covered in Stream 1 by the end of the first week.
 
 ## Rationale
