@@ -101,7 +101,7 @@
 		<div class="box">
 			<h2>Links</h2>
 			
-			<table id="t_links">
+			<table id="t_wide">
 			<tr>
 				<td><xmp><a href="URL">clickable text</a></xmp></td>
 				<td>Creates a hyperlink to a URL</td>
@@ -209,34 +209,157 @@
 		<div class="box">
 			<h2>Forms</h2>
 			
-			<table>
+			<table id="t_wide">
 			<tr>
 				<td><xmp><form></form></xmp></td>
 				<td>Defines a form</td>
 			</tr>
 			<tr>
-				<td><xmp><hr size=?></xmp></td>
-				<td>Sets height of horizontal rule</td>
+				<td><xmp><select multiple name=? size=?></select></xmp></td>
+				<td>Creates a scrolling menu. Size sets the number of menu items visible before user needs to scroll.</td>
 			</tr>
 			<tr>
-				<td><xmp><hr width=?></xmp></td>
-				<td>Sets width of  rule (as a % or absolute pixel length</td>
+				<td><xmp><option></xmp></td>
+				<td>Sets off each option</td>
 			</tr>
 			<tr>
-				<td><xmp><hr noshade></xmp></td>
-				<td>Inserts a rule with no shadow</td>
+				<td><xmp><textarea name=? cols="x" rows="y"></textarea></xmp></td>
+				<td>Creates a text box area. Columns set the width; rows set the height</td>
 			</tr>
 			<tr>
-				<td><xmp><img src="URL" /></xmp></td>
-				<td>Adds image; it is a separate file located at URL</td>
+				<td><xmp><input type="checkbox" name=? value=?></xmp></td>
+				<td>Creates a checkbox</td>
 			</tr>
 			<tr>
-				<td><xmp><img src="URL" height=? width=?></xmp></td>
-				<td>Set the height and width of the image, in pixels</td>
+				<td><xmp><input type="checkbox" name=? value=? checked></xmp></td>
+				<td>Creates a checkbox which is pre-checked</td>
 			</tr>
 			<tr>
-				<td><xmp><img src="URL" alt=?></xmp></td>
-				<td>Sets the alternate text to be displayed if the browser (or user) can't process images</td>
+				<td><xmp><input type="radio" name=? value=?></xmp></td>
+				<td>Creates a radio button</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="radio" name=? value=? checked></xmp></td>
+				<td>Creates a radio button which is pr-checked</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="text" name=? size=?></xmp></td>
+				<td>Creates a one-line text area. Size sets length, in characters</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="submit" value=?></xmp></td>
+				<td>Creates a submit button. Value sets the text in the submit button</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="image" name=? src=? border=? alt=?></xmp></td>
+				<td>Creates a submit button using an image</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="reset"></xmp></td>
+				<td>Creates a reset button.</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="email" name=?></xmp></td>
+				<td>Creates a single-line textbox for email addresses</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="url" name=?></xmp></td>
+				<td>Creates a single-line textbox for URLs</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="number" name=?></xmp></td>
+				<td>Creates a single-line textbox for a number</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="range" name=?></xmp></td>
+				<td>Creates a single-line textbox for a range of numbers</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="date/month/week/time" name=?></xmp></td>
+				<td>Creates a single-line textbox with a calendar showing date/month/week/time</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="search" name=?></xmp></td>
+				<td>Creates a single-line textbox for searching</td>
+			</tr>
+			<tr>
+				<td><xmp><input type="color" name=?></xmp></td>
+				<td>Creates a single-line textbox for picking a color</td>
+			</tr>
+			</table>
+				
+		</div>
+		<div class="box">
+			<h2>Tables</h2>
+			
+			<table>
+			<tr>
+				<td><xmp><table></table></xmp></td>
+				<td>Creates a table</td>
+			</tr>
+			<tr>
+				<td><xmp><tr></tr></xmp></td>
+				<td>Creates a row in a table</td>
+			</tr>
+			<tr>
+				<td><xmp><td></td></xmp></td>
+				<td>Creates a cell in a row</td>
+			</tr>
+			<tr>
+				<td><xmp><th></th></xmp></td>
+				<td>Creates the table header (a normal cell with bold, centered text</td>
+			</tr>
+			</table>
+				
+		</div>
+
+		<div class="box">
+			<h2>Table attributes</h2>
+			
+			<table>
+			<tr>
+				<td><xmp><table border=?></xmp></td>
+				<td>Sets the width of the border around table cells</td>
+			</tr>
+			<tr>
+				<td><xmp><table cellspacing=?></xmp></td>
+				<td>Sets amount of space between cells</td>
+			</tr>
+			<tr>
+				<td><xmp><table cellpadding=?></xmp></td>
+				<td>Sets aount of space between a cell's border and its contents</td>
+			</tr>
+			<tr>
+				<td><xmp><table width=?></xmp></td>
+				<td>Sets width of the table in pixels or as a percentage</td>
+			</tr>
+			<tr>
+				<td><xmp><tr align=?></xmp></td>
+				<td>Sets alignment for cells within the row (left/center/right)</td>
+			</tr>
+			<tr>
+				<td><xmp><td align=?></xmp></td>
+				<td>Sets alignment for the contents of cells (left/center/right)</td>
+			</tr>
+			<tr>
+				<td><xmp><tr valign=?></xmp></td>
+				<td>Sets vertical alignment for cells within the row (top/middle/bottom)</td>
+			</tr>
+			<tr>
+				<td><xmp><td valign=?></xmp></td>
+				<td>Sets vertical alignment for the contents of cells (top/middle/bottom)</td>
+			</tr>
+			<tr>
+				<td><xmp><td rowspan=?></xmp></td>
+				<td>Sets number of rows a cell should span (default=1)</td>
+			</tr>
+			<tr>
+				<td><xmp><td colspan=?></xmp></td>
+				<td>Sets number of columns a cell should span</td>
+			</tr>
+			<tr>
+				<td><xmp><td nowrap></xmp></td>
+				<td>Prevents lines within a cell being broken to fit</td>
 			</tr>
 			</table>
 				
