@@ -7,6 +7,7 @@ body {
 	margin: 0px auto;
 	width:90vh;
 	text-align: center;
+	margin-top:50px;
 }
 
 .container {
@@ -38,19 +39,18 @@ body {
 
 
 .box a {
-	text-decoration: none;
+	text-decoration: none; /*ugly underlined links begone*/
 	display: block;
 	color: black;
 }
 
 #head {
-	border-bottom-left-radius: 0;
-	border-top-left-radius: 25px;
+	border-bottom-left-radius: 0; /*Overrides default border radii set in the .box class */
+	border-top-left-radius: 25px; 
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 25px;
 	font-variant: small-caps;
 	background: linear-gradient(#02BAB8, white);
-	margin-top:100px;
 	padding-top: 20px;
 
 }
@@ -70,12 +70,17 @@ table {
 	font-size:16px;
 	border-top: 1px dashed black;
 	margin-top: 3px;
+	table-layout: fixed;
 }
 
 td {
 	border-bottom: 1px solid black;
 	padding-bottom: 3px;
 	text-align:left;
+}
+
+#t_links {
+	table-layout: auto;
 }
 
 
@@ -85,12 +90,13 @@ td {
 	}
 
 	.box {
-		width:50vh;
+		width:80vh;
 		border-radius:0;
 	}
 
-	table {
-		table-layout:fixed;
+	.footer {
+		border-bottom-left-radius: 15px;  /*required to restore curved borders on the footer on */
+		border-bottom-right-radius: 15px; /*small screen sizes which the previous selector removed*/
 	}
 }
 
