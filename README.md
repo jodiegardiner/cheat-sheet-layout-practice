@@ -21,11 +21,13 @@ I found that when I wanted to access the various cheatsheets, I had to jump back
 
 * I found the background image first then used a colour picker tool to find a colour on it that I liked and went on to use as the background colour for the .box class.  This helped to create a continuity in aesthetics.
 
-* I used the name anchor to put a "Return to top" link at the bottom of the layout so the user didn't get stranded with no easy way to get back.
+* I used the name anchor to put a "Return to top" link at the bottom of the layout so the user didn't get stranded at the bottom of the page with no easy way to get back.
 
 ## Responsiveness
 The layout is very basic but the structure did breakdown into an ugly mess at smaller screen sizes.  Therefore, the navigation will switch to a flexbox column if the screen size is smaller than a tablet.
 
 ## Issues and obstacles
 
-There are still a couple of issues with overflowing data that I haven't managed to fix yet. This is mainly caused by content in the XMP tags which it is not able to wrap successfully using normal css wrapping properties.
+* There are still a couple of issues with overflowing data that I haven't managed to fix yet. This is mainly caused by content in the XMP tags which it is not able to wrap successfully using normal css wrapping properties.
+
+* The flexbox navbar was repeated on two pages.  I wonder if there is a way to only have to write it once and reference it from the other page(s). In this case, I could obviously just copy and paste but I was thinking in terms of scalability to scores or hundreds of pages.
