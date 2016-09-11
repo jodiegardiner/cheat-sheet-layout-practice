@@ -4,10 +4,10 @@ body {
 }
 
 .ubercontainer {
-	margin: 0px auto;
-	width:90vh;
-	text-align: center;
-	margin-top:50px;
+	margin: 0px auto;   /* I only wanted part of the layout as a		*/
+	width:90vh;			/* flexbox so i made a container for the		*/
+	text-align: center; /* the flexbox container, allowing me to use	*/
+	margin-top:50px; 	/* regular block elements above and below 		*/
 }
 
 .container {
@@ -39,8 +39,8 @@ body {
 
 
 .box a {
-	text-decoration: none; /*ugly underlined links begone*/
-	display: block;
+	text-decoration: none; 	/*ugly underlined links begone 	*/
+	display: block;			/*stretches the clickable area 	*/
 	color: black;
 }
 
@@ -95,8 +95,8 @@ td {
 	}
 
 	.footer {
-		border-bottom-left-radius: 15px;  /*required to restore curved borders on the footer on */
-		border-bottom-right-radius: 15px; /*small screen sizes which the previous selector removed*/
+		border-bottom-left-radius: 15px;  	/*required to restore curved borders to the footer on 		*/
+		border-bottom-right-radius: 15px; 	/*small screen sizes which the previous selector removed	*/
 	}
 }
 
