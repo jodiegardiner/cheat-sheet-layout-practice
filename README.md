@@ -1,6 +1,10 @@
 # Layout practice - Cheat Sheets
 Simple cheatsheet links for all we have covered in Stream 1 by the end of the first week.
 
+
+## What it does
+Pulls together all the cheatsheets from across the slides into one responsive navigation bar. Also, I made my own html cheetsheat layout using content from one of the html cheatsheet links.
+
 ## Rationale
 I wanted to practice the various techniques we learned in week 1 whilst also putting together something that I will personally find useful in the days and weeks to come.  Perhaps someone else will find it useful too.
 
