@@ -11,17 +11,17 @@ I wanted to practice the various techniques we learned in week 1 whilst also put
 I found that when I wanted to access the various cheatsheets, I had to jump back and forth between the slides to find the individual cheatsheets for a particular area of study.  Therefore, I wanted to point to the cheatsheets from one easily accessible location.
 
 ## Techniques
-*First of all, I wanted to keep all of the styling information out of the HTML. Not only that but as I thought I would need at least 2 pages, this was the first time I have referenced an external stylesheet of my own creation.
+* First of all, I wanted to keep all of the styling information out of the HTML. Not only that but as I thought I would need at least 2 pages, this was the first time I have referenced an external stylesheet of my own creation.
 
-*This is also the first time I encountered the TABLE tag but it seemed ideal for my purposes (displaying 2-column tabular data). I have since learned I could probably replicate it using the Definition List type.
+* This is also the first time I encountered the TABLE tag but it seemed ideal for my purposes (displaying 2-column tabular data). I have since learned I could probably replicate it using the Definition List type.
 
-*For all but the HTML cheatsheet, I have linked to the same urls we were given in the slides.  In html.html, I used the cheatsheets as content for my layout practice.
+* For all but the HTML cheatsheet, I have linked to the same urls we were given in the slides.  In html.html, I used the cheatsheets as content for my layout practice.
 
-*I discovered the XMP tag which lets you display html tags as raw text without having to faff around too much.
+* I discovered the XMP tag which lets you display html tags as raw text without having to faff around too much.
 
-*I found the background image first then used a colour picker tool to find a colour on it that I liked and went on to use as the background colour for the .box class.  This helped to create a continuity in aesthetics.
+* I found the background image first then used a colour picker tool to find a colour on it that I liked and went on to use as the background colour for the .box class.  This helped to create a continuity in aesthetics.
 
-*I used the name anchor to put a "Return to top" link at the bottom of the layout so the user didn't get stranded with no easy way to get back.
+* I used the name anchor to put a "Return to top" link at the bottom of the layout so the user didn't get stranded with no easy way to get back.
 
 ## Responsiveness
 The layout is very basic but the structure did breakdown into an ugly mess at smaller screen sizes.  Therefore, the navigation will switch to a flexbox column if the screen size is smaller than a tablet.
